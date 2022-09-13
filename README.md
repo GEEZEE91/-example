@@ -1,11 +1,10 @@
-<b>Work Day Scheduler</b>
+<b> Work Day Planner / To Do List </b>
 
 
-
-
-Description
-
-
+  Description
+  
+  
+  
   Work Day Calendar Application that enables user to schedule and save tasks for each hour of the work day. 
 
   The events entered are stored in the browsers local storage, thus ensuruing the events are saved even if the browser is refreshed or closed.
