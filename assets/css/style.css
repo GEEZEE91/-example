@@ -24,6 +24,7 @@ textarea {
   background: #3494E6;  
   background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  
   background: linear-gradient(to right, #EC6EAD, #3494E6); /
+}
 
 .description {
  white-space: pre-wrap;
@@ -76,10 +77,10 @@ textarea {
   border: 1px dashed  #fff3f3;
   border-radius: 15px;
   background: #00d2ff; 
-background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  
-background: linear-gradient(to left, #928DAB, #00d2ff); 
-  
+  background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  
+  background: linear-gradient(to left, #928DAB, #00d2ff);  
 }
+  
 .saveBtn .hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
