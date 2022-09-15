@@ -1,46 +1,56 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 1;
+  line-height: 2;
+  font-weight:bolder;
 }
 
 textarea {
   background: transparent;
-  border: none;
+  border-radius: 15px;
   resize: none;
-  color: #000000;
-  border-left: 1px solid rgb(209, 29, 29);
-  padding: 10px;
+  color: #070000;
+  border: 1px solid #EC6EAD;;
+  padding: 5px;
+  height: 100px;
+  
 }
 
 .jumbotron {
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
   border-radius: 0;
   border-bottom: 10px solid black;
-}
+  background: #3494E6;  
+  background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  
+  background: linear-gradient(to right, #EC6EAD, #3494E6); /
 
 .description {
-  white-space: pre-wrap;
- 
+ white-space: pre-wrap;
+ padding: 25px;
 }
 
 .time-block {
   text-align: center;
   border-radius: 15px;
- 
+  background-color: rgb(255, 255, 255);
+  background: transparent;
 }
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
-  border: 1px dashed black;
+  height: 100px;
+  border: 1px dashed rgb(255, 255, 255);
+  background: transparent;
 }
 
 .hour {
-  background-color: #0fb392;
-  color: #f7f7f7;
-  border: 1px dashed #000000;
+  padding-top: 2rem;
+  height: 100px;
+  border: 1px dashed #fff3f3;
+  border-radius: 15px;
+  background-color: #00d2ff;
+
 }
 
 .past {
@@ -58,17 +68,17 @@ textarea {
   color: white;
 }
 
-.saveBtn  {
-  border-left: 1px solid black;
-  border-radius: 15px;
-  background-color: #06aed5;
+
+.btn{
   color: white;
-}
-.deleteBtn {
-  border-left: 1px solid black;
+  height: 100px;
+  font-size: xx-large;
+  border: 1px dashed  #fff3f3;
   border-radius: 15px;
-  background-color: #01303a;
-  color: white;
+  background: #00d2ff; 
+background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  
+background: linear-gradient(to left, #928DAB, #00d2ff); 
+  
 }
 .saveBtn .hover {
   font-size: 20px;
